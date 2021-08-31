@@ -21,6 +21,21 @@ public class OperacionesBasicas {
         System.out.println("sumar = " + sumar);
     }
 
+    public void resta(){
+        System.out.println("Soy una calculadora tonta solo se sumar dos numeros");
+        System.out.println("Ingresa el primero numero");
+        this.numeroUno = Integer.parseInt(this.consola.nextLine());
+        System.out.println("Ingresa el segundo numero ");
+        this.numeroDos = Integer.parseInt(this.consola.nextLine());
+        int resta = numeroDos - numeroUno;
+        System.out.println("resta = " + resta);
+
+    }
+
+    
+
+
+
 
 
 }
