@@ -30,7 +30,7 @@ public class Test {
                         operacion.multiplicacion();
                         break;
                     case 4:
-                        operacion.multiplicacion();
+                        operacion.divicion();
                         break;
                     default:
                         System.out.println("Ingrese una de las opciones marcadas");

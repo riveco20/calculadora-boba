@@ -22,7 +22,7 @@ public class OperacionesBasicas {
     }
 
     public void resta(){
-        System.out.println("Soy una calculadora tonta solo se sumar dos numeros");
+        System.out.println("Soy una calculadora tonta solo se resta dos numeros");
         System.out.println("Ingresa el primero numero");
         this.numeroUno = Integer.parseInt(this.consola.nextLine());
         System.out.println("Ingresa el segundo numero ");
@@ -33,7 +33,7 @@ public class OperacionesBasicas {
     }
 
     public void multiplicacion(){
-        System.out.println("Soy una calculadora tonta solo se sumar dos numeros");
+        System.out.println("Soy una calculadora tonta solo se Multiplicar dos numeros");
         System.out.println("Ingresa el primero numero");
         this.numeroUno = Integer.parseInt(this.consola.nextLine());
         System.out.println("Ingresa el segundo numero ");
@@ -45,12 +45,12 @@ public class OperacionesBasicas {
 
 
         public void divicion(){
-            System.out.println("Soy una calculadora tonta solo se sumar dos numeros");
-            System.out.println("Ingresa el primero numero");
+            System.out.println("Soy una calculadora tonta solo se dividir dos numeros");
+            System.out.println("Ingresa el divisor");
             this.numeroUno = Integer.parseInt(this.consola.nextLine());
-            System.out.println("Ingresa el segundo numero ");
+            System.out.println("Ingresa el dividendo ");
             this.numeroDos = Integer.parseInt(this.consola.nextLine());
-            double divicion = numeroDos / numeroUno;
+            double divicion = (numeroUno/numeroDos);
             System.out.println("resta = " + divicion);
 
         }
